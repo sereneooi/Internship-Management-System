@@ -1,4 +1,4 @@
-_<?php
+<?php
         if (isset($_POST['submit']))
             { 
          $dbconn = mysqli_connect('localhost','root','','db_issm');    
@@ -26,17 +26,24 @@ _<?php
   <link rel ="stylesheet" type="text/css" href ="css/bootstrap.min.css">
 <script type="text/javascript" src="js/script1.js"></script>
 </head>
+<style>
+body {
+  background-image: url('images/blur2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
 <?php include("head.php");?>
 <body>
 <table style='width:100%;'>
   <tr style='text-align: center;'><td>
   <div class='container' style='margin-left: auto;margin-right:auto;'>
   
-  <div class="row" id="pwd-container">
+  <div class="row" id="pwd-container" style='margin: 0 auto;width:60%;'>
 
-    <div class="col-md-8">
-      <section class="login-form">
-        <form method="post" action="#" role="login">
+    <div class="col-md-8" style='margin: 0 auto;width:100%;'>
+      <section class="login-form" >
+        <form method="post" action="#" role="login" style='margin-left: auto;margin-right:auto;border:1px solid black;'>
           <img src="img/icho.jpg" class="img-responsive" alt="" />
           <input type="text" name="user_name" placeholder="Enter Username " required class="form-control input-lg" value="" />
           

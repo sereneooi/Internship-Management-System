@@ -42,7 +42,7 @@
 	<br />
 	<hr style = "border-top:1px dotted #000;" />
 	<div class = "container-fluid">
-		<div class = "alert" style='background-color: #0080d2;color:white;'><center><h3>Goal of the Internship platform </h3><center></div>
+		<div class = "alert" style='background-color: #ADD8E6;color:black;'><center><h3>Goal of the Internship platform </h3><center></div>
 		<h4>The Internship  portal platform aims to</h4>
 		<ol>
 			<li><h4>Produce students with technical skills </h4></li>

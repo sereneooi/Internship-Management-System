@@ -4,7 +4,7 @@
 ?>
 <html lang = "en">
 	<head>
-		<title>Information System Society Membership</title>
+		<title>TARUMT</title>
 		<meta charset = "UTF-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1" />
 		<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css" />
@@ -12,6 +12,7 @@
 		<link rel = "stylesheet" type = "text/css" href = "css/jquery-ui.css" />
 		<link rel = "stylesheet" type = "text/css" href = "css/jquery.dataTables.css" />
 	</head>
+	
 <body>
 <!--------------------HEAD---------------------->
 <?php include'head.php'?>
