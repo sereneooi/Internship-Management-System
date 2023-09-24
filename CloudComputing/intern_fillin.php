@@ -11,7 +11,7 @@ if (isset($_POST['insert_button'])) {
     if (empty($reg_no) || empty($first_name) || empty($last_name) || empty($age)) {
         echo "All fields are required.";
     } else {
-        $con = mysqli_connect("localhost", "root", "", "db_issm");
+        $con = mysqli_connect('db1.cpg9cjdwwtu2.us-east-1.rds.amazonaws.com', 'main', 'qwer1234', 'db1');
 
         // Check connection
         if (mysqli_connect_errno()) {
