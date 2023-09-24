@@ -15,7 +15,7 @@
     </ol>
     
     <!-- Founder 1: Bee Wei Win's Portfolio Section -->
-    <div class="alert" style='background-color: #ADD8E6;color:black;'><center><h3>Bee Wei Win's Portfolio</h3></center></div>
+    <div class="alert" style='background-color: #ADD8E6;color:black;'><center><h3>Portfolio</h3></center></div>
     <div class="founder-portfolio">
         <div class="founder-image">
             <img src="images/q.jpg" alt="Bee Wei Win's Image" width="150" height="150">
@@ -23,33 +23,18 @@
         <div class="founder-details">
             <p>Bachelor's Degree of Computer Science</p>
         </div>
-    </div>
-
-    <!-- Founder 2: Foo Jing Lynn's Portfolio Section -->
-    <div class="alert" style='background-color: #ADD8E6;color:black;'><center><h3>Foo Jing Lynn's Portfolio</h3></center></div>
-    <div class="founder-portfolio">
         <div class="founder-image">
             <img src="images/q.jpg" alt="Foo Jing Lynn's Image" width="150" height="150">
         </div>
         <div class="founder-details">
             <p>Bachelor's Degree of Computer Science</p>
         </div>
-    </div>
-
-    <!-- Founder 3: Ho Kai Ying's Portfolio Section -->
-    <div class="alert" style='background-color: #ADD8E6;color:black;'><center><h3>Ho Kai Ying's Portfolio</h3></center></div>
-    <div class="founder-portfolio">
         <div class="founder-image">
             <img src="images/q.jpg" alt="Ho Kai Ying's Image" width="150" height="150">
         </div>
         <div class="founder-details">
             <p>Bachelor's Degree of Computer Science</p>
         </div>
-    </div>
-
-    <!-- Founder 4: Serene Ooi Yin Ting's Portfolio Section -->
-    <div class="alert" style='background-color: #ADD8E6;color:black;'><center><h3>Serene Ooi Yin Ting's Portfolio</h3></center></div>
-    <div class="founder-portfolio">
         <div class="founder-image">
             <img src="images/q.jpg" alt="Serene Ooi Yin Ting's Image" width="150" height="150">
         </div>
