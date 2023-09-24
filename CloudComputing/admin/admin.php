@@ -24,7 +24,8 @@
 
 		<div id = "sidecontent" class = "well pull-right">
 				<div class = "alert alert-info">Accounts/Administrator</div>
-				<button type = "button" id = "add_admin" class = "btn btn-success"><span class = "glyphicon glyphicon-plus"></span> Add Admin</button>
+				<button type = "button" id = "add_admin" class = "btn btn-success"><span class = "glyphicon glyphicon-plus"></span> Add Admin</button>'
+				<button type="button" id="generate_report" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Generate Report</button>
 				<button style = "display:none;" type = "button" id = "cancel_admin" class = "btn btn-warning"><span class = "glyphicon glyphicon-hand-right"></span> Cancel</button>
 				<br />
 				<br />
@@ -126,6 +127,27 @@
 				window.location = 'delete_admin.php?admin_id=' + $admin_id;
 			});
 		});
+
+		// Handle click event for the "Generate Report" button
+	        $('#generate_report').on('click', function() {
+	            // Perform actions to generate the report
+	            // You can make an AJAX request to a PHP script that generates the report
+	            // and returns it to display on the page or initiate a file download.
+	            // Example:
+	            $.ajax({
+	                url: 'generate_report.php', // Replace with the actual URL of your report generation script
+	                method: 'POST',
+	                dataType: 'html', // Change to the appropriate data type
+	                success: function(response) {
+	                    // Handle the response, e.g., display the report or initiate download
+	                    alert('Report generated successfully.');
+	                },
+	                error: function(xhr, status, error) {
+	                    // Handle any errors
+	                    alert('Error generating the report: ' + error);
+	                }
+	            });
+        	});
 	});
 </script>
 </html>
