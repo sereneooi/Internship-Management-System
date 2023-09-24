@@ -9,19 +9,19 @@ include_once 'dbconfig.php';
 </head>
 <body>
 <div id="header">
-<label>InternMSU internship portal </label>
+<label>TARUMT Internship Portal </label>
 </div>
 <div id="body">
 	<h1>Thanks for applying will notify you 
     
     
     
-    </h1>
+    </h1><be><br>
     <a href="../index.php">click.
         |HOME</a>
 </div>
 <div id="footer">
-<label>By <a href="#">tremendouschatikobo@gmail.com</a></label>
+<label>By <a href="#">TARUMTPENANG@gmail.com</a></label>
 </div>
 </body>
 </html>
