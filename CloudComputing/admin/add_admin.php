@@ -10,7 +10,7 @@
 			echo "<script>alert('Username already taken')</script>";
 			echo "<script>window.location = 'admin.php'</script>";
 		}else{
-			$conn->query("INSERT INTO `admin` VALUES('', '$username', '$password', '$name')") or die($conn->error);
+			$conn->query("INSERT INTO `admin` (username, password, name) VALUES('$username', '$password', '$name')") or die($conn->error);
 			header('location:admin.php');
 		}
 	}	
