@@ -12,7 +12,7 @@ $(document).ready(function(){
 			$('#student_content').empty();
 			$loader = $(
 			'<center><label>Please wait...</label></center>'
-			+ '<center><img src = "images/loader.gif" height = "50px"/></center>'
+			+ '<center><img src = "http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/loader.gif" height = "50px"/></center>'
 			);
 			$loader.appendTo($('#student_content'));
 			setTimeout(function(){
@@ -49,7 +49,7 @@ $(document).ready(function(){
 		$('#transaction').fadeOut();
 		$loader = $(
 			'<center><label>Logging Out...</label></center>'
-			+ '<center><img src = "images/loader.gif" height = "50px"/></center>'
+			+ '<center><img src = "http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/loader.gif" height = "50px"/></center>'
 			);
 		$('#student_content').empty();	
 		$loader.appendTo($('#student_content'));
@@ -67,7 +67,7 @@ $(document).ready(function(){
 	
 /*   Administrator Login  */	
 	$('#login').click(function(){
-		$loading = $('<center><img src = "../images/loading.gif" height = "10px"/></center>');
+		$loading = $('<center><img src = "http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/loading.gif" height = "10px"/></center>');
 		$error.remove();
 		$error1.remove();
 		$username = $('#username').val();
