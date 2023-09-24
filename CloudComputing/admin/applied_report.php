@@ -8,7 +8,7 @@ $fillDetails = $query->fetch_all(MYSQLI_ASSOC);
 // Generate the HTML report with improved formatting
 $report = '<html>';
 $report .= '<head>';
-$report .= '<title>Fill Details Report</title>';
+$report .= '<title>Student List Report</title>';
 $report .= '<style>';
 $report .= 'body { font-family: Arial, sans-serif; margin: 20px; }';
 $report .= 'h1 { text-align: center; }';
