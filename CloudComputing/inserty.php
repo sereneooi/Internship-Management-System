@@ -1,13 +1,13 @@
 <html>
 <body>
 <?php
-$con = mysqli_connect("localhost","root","","db_issm");
+$con = mysqli_connect('db1.cpg9cjdwwtu2.us-east-1.rds.amazonaws.com', 'main', 'qwer1234', 'db1');
 if (!$con)
   {
   die('Could not connect: ' . mysqli_error($con));
   }
  
-mysqli_select_db($con, "db_issm");
+mysqli_select_db($con, "db1");
 $fname = time().'_'.$_FILES['file']['name'];
 $loc = './upload/';
 $move = move_uploaded_file($_FILES['file']['tmp_name'], $loc.$fname);
