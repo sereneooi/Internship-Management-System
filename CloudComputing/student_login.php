@@ -20,15 +20,15 @@
         ?>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/login.css">
- <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="bootstrap/css/jquery.dataTables.css">
-  <link rel ="stylesheet" type="text/css" href ="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/login.css">
+ <link rel="stylesheet" type="text/css" href="http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/jquery.dataTables.css">
+  <link rel ="stylesheet" type="text/css" href ="http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/bootstrap.min.css">
 <script type="text/javascript" src="js/script1.js"></script>
 </head>
 <style>
 body {
-  background-image: url('images/blur2.jpg');
+  background-image: url('http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/blur2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
