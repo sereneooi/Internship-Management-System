@@ -141,6 +141,7 @@
 	                success: function(response) {
 	                    // Handle the response, e.g., display the report or initiate download
 	                    alert('Report generated successfully.');
+				window.location = 'admin_report.php';
 	                },
 	                error: function(xhr, status, error) {
 	                    // Handle any errors
