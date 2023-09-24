@@ -6,7 +6,7 @@
     }
 
     .founder-details {
-        width: 60%; /* Adjust as needed */
+        width: 100%; /* Adjust as needed */
     }
 
     .founder-image img {
