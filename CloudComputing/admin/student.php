@@ -23,8 +23,8 @@
 <!-------------------SIDEBAR0------------------>
 
 		<div id = "sidecontent" class = "well pull-right">
-				<div class = "alert alert-info">students profile</div>
-				
+				<div class = "alert alert-info">Students Profile</div>
+				<button type="button" id="generate_report" class="btn btn-success"><span class="glyphicon glyphicon-plus"></span> Generate Report</button>
 				<button style = "display:none;" type = "button" id = "cancel_student" class = "btn btn-warning"><span class = "glyphicon glyphicon-hand-right"></span> Cancel</button>
 				<br />
 				<br />
