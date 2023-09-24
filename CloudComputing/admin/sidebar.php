@@ -14,13 +14,13 @@
 		<li><a href = ""><i class = "glyphicon glyphicon-user"></i> Accounts</a>
 			<ul>
 				<li><a href = "admin.php"><i class = "glyphicon glyphicon-user"></i> Administrator</a></li>
-                <li><a href = "students_details.php"><i class = "glyphicon glyphicon-user"></i> students_Acc</a></li>
+                <li><a href = "students_details.php"><i class = "glyphicon glyphicon-user"></i> Students Account / Registered User</a></li>
 				
 			</ul>
 		</li>
 		<li><a href = "activity.php"><i class = "glyphicon glyphicon-calendar"></i>Upload internships</a></li>
 		
-		<li><a href = "student.php"><i class = "glyphicon glyphicon-ruble"></i> students partculars</a></li>
+		<li><a href = "student.php"><i class = "glyphicon glyphicon-ruble"></i> Applied Internship</a></li>
 		<li><a href = ""><i class = "glyphicon glyphicon-cog"></i> Options</a>
 			<ul>
 				<li><a href = "logout.php"><i class = "glyphicon glyphicon-log-out"></i> Logout</a></li>
