@@ -1,7 +1,7 @@
 <?php
         if (isset($_POST['submit']))
             { 
-         $dbconn = mysqli_connect('localhost','root','','db_issm');    
+         $dbconn = mysqli_connect('db1.cpg9cjdwwtu2.us-east-1.rds.amazonaws.com', 'main', 'qwer1234', 'db1');    
         //include("config.php");
         session_start();
         $username=$_POST['user_name'];
