@@ -34,6 +34,9 @@
 								<input type = "password" maxlength = "12" id = "password" class = "form-control" />
 							</div>
 							<br />
+							<div id = "loading">
+							</div>
+							<br />
 							<div class = "form-group">
 								<button type = "button" class = "btn btn-primary form-control" id = "login"><span class = "glyphicon glyphicon-log-in"></span> Login</button>
 							</div>
@@ -57,5 +60,6 @@
 		<label class = "navbar-brand ">TREMENDOUSCHATIKOBO@GMAIL.COM</label>
 	</nav>
 </body>	
+<script src = "../js/jquery-3.1.1.js"></script>
 <script src = "../js/script.js"></script>
 </html>
