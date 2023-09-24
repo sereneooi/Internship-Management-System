@@ -4,7 +4,7 @@
 	$f_student = $q_student->fetch_array();
 ?>
 <input type = "hidden" id = "student_id" value = "<?php echo $f_student['student_id']?>"/>
-<img style = "margin:20px;" class = "pull-left" src = "<?php if($f_student['photo'] == "default.png"){echo "../images/".$f_student['photo'];}else{echo "../upload/".$f_student['photo'];}?>" height = "150px" width = "150px"/>
+<img style = "margin:20px;" class = "pull-left" src = "<?php if($f_student['photo'] == "default.png"){echo "http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/".$f_student['photo'];}else{echo "../upload/".$f_student['photo'];}?>" height = "150px" width = "150px"/>
 <div style = "padding:20px; margin-left:50px;" class = "col-md-8 alert-success">	
 	<table class = "table">	
 		<tr>
