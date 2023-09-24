@@ -33,8 +33,6 @@
 								<label>Password</label>
 								<input type = "password" maxlength = "12" id = "password" class = "form-control" />
 							</div>
-							<div id = "loading">
-							</div>
 							<br />
 							<div class = "form-group">
 								<button type = "button" class = "btn btn-primary form-control" id = "login"><span class = "glyphicon glyphicon-log-in"></span> Login</button>
