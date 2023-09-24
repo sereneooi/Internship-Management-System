@@ -1,3 +1,3 @@
 <?php
-	$conn = new mysqli('localhost', 'root', '', 'db_issm') or die($conn->error);
+	$conn = new mysqli('db1.cpg9cjdwwtu2.us-east-1.rds.amazonaws.com', 'main', 'qwer1234', 'db1') or die($conn->error);
 ?>
