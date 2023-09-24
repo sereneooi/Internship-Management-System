@@ -125,6 +125,25 @@
 				window.location = 'delete_student.php?id=' + $id;
 			});
 		});
+
+		// Handle click event for the "Generate Report" button
+	        $('#generate_report').on('click', function() {
+	            // Perform actions to generate the report
+	            $.ajax({
+	                url: 'applied_report.php', // Replace with the actual URL of your report generation script
+	                method: 'POST',
+	                dataType: 'html', // Change to the appropriate data type
+	                success: function(response) {
+	                    // Handle the response, e.g., display the report or initiate download
+	                    alert('Report generated successfully.');
+				window.location = 'applied_report.php';
+	                },
+	                error: function(xhr, status, error) {
+	                    // Handle any errors
+	                    alert('Error generating the report: ' + error);
+	                }
+	            });
+        	});
 	});
 </script>
 </html>
