@@ -135,7 +135,7 @@
 	            // and returns it to display on the page or initiate a file download.
 	            // Example:
 	            $.ajax({
-	                url: 'generate_report.php', // Replace with the actual URL of your report generation script
+	                url: 'admin_report.php', // Replace with the actual URL of your report generation script
 	                method: 'POST',
 	                dataType: 'html', // Change to the appropriate data type
 	                success: function(response) {
