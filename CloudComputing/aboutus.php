@@ -1,3 +1,19 @@
+<style>
+    .founder-portfolio {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .founder-details {
+        width: 45%; /* Adjust as needed */
+    }
+
+    .founder-image img {
+        max-width: 100%;
+        height: auto;
+    }
+</style>
 <div id="aboutus" class="tab-pane fade">
     <div class="alert" style='background-color: #ADD8E6;color:black;'><center><h3>VISION</h3></center></div>
     <h4>Excellence in producing highly skilled, well-qualified, and globally competitive Information Technology Education (ITE) graduates</h4>
@@ -17,29 +33,44 @@
     <!-- Founder 1: Bee Wei Win's Portfolio Section -->
     <div class="alert" style='background-color: #ADD8E6;color:black;'><center><h3>Portfolio</h3></center></div>
     <div class="founder-portfolio">
-        <div class="founder-image">
-            <img src="images/q.jpg" alt="Bee Wei Win's Image" width="150" height="150">
+        <div class="founder-item">
+            <div class="founder-image">
+                <img src="images/q.jpg" alt="Bee Wei Win's Image" width="150" height="150">
+            </div>
+            <div class="founder-details">
+                <p>Bee Wei Win</p>
+                <p>Bachelor's Degree of Computer Science</p>
+            </div>
         </div>
-        <div class="founder-details">
-            <p>Bachelor's Degree of Computer Science</p>
+    
+        <div class="founder-item">
+            <div class="founder-image">
+                <img src="images/q.jpg" alt="Foo Jing Lynn's Image" width="150" height="150">
+            </div>
+            <div class="founder-details">
+                <p>Foo Jing Lynn</p>
+                <p>Bachelor's Degree of Computer Science</p>
+            </div>
         </div>
-        <div class="founder-image">
-            <img src="images/q.jpg" alt="Foo Jing Lynn's Image" width="150" height="150">
+    
+        <div class="founder-item">
+            <div class="founder-image">
+                <img src="images/q.jpg" alt="Ho Kai Ying's Image" width="150" height="150">
+            </div>
+            <div class="founder-details">
+                <p>Ho Kai Ying</p>
+                <p>Bachelor's Degree of Computer Science</p>
+            </div>
         </div>
-        <div class="founder-details">
-            <p>Bachelor's Degree of Computer Science</p>
-        </div>
-        <div class="founder-image">
-            <img src="images/q.jpg" alt="Ho Kai Ying's Image" width="150" height="150">
-        </div>
-        <div class="founder-details">
-            <p>Bachelor's Degree of Computer Science</p>
-        </div>
-        <div class="founder-image">
-            <img src="images/q.jpg" alt="Serene Ooi Yin Ting's Image" width="150" height="150">
-        </div>
-        <div class="founder-details">
-            <p>Bachelor's Degree of Computer Science</p>
+    
+        <div class="founder-item">
+            <div class="founder-image">
+                <img src="images/q.jpg" alt="Serene Ooi Yin Ting's Image" width="150" height="150">
+            </div>
+            <div class="founder-details">
+                <p>Serene Ooi Yin Ting</p>
+                <p>Bachelor's Degree of Computer Science</p>
+            </div>
         </div>
     </div>
 </div>
