@@ -8,10 +8,10 @@
 		<title>Internship portal management system</title>
 		<meta charset = "UTF-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1" />
-		<link rel = "stylesheet" type = "text/css" href = "http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/bootstrap.css" />
-		<link rel = "stylesheet" type = "text/css" href = "http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/style.css" />
-		<link rel = "stylesheet" type = "text/css" href = "http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/jquery-ui.css" />
-		<link rel = "stylesheet" type = "text/css" href = "http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/jquery.dataTables.css" />
+		<link rel = "stylesheet" type = "text/css" href = "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/bootstrap.css" />
+		<link rel = "stylesheet" type = "text/css" href = "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/style.css" />
+		<link rel = "stylesheet" type = "text/css" href = "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/jquery-ui.css" />
+		<link rel = "stylesheet" type = "text/css" href = "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/jquery.dataTables.css" />
 	</head>
 <body>
 <!--------------------HEAD---------------------->
@@ -36,7 +36,7 @@
 							<form method = "POST" enctype = "multipart/form-data" action = "edit_student_query.php?id=<?php echo $f_student['id']?>">
 								<div class = "pull-left">
 									<div id = "picture">
-										<img onerror="this.src = '<?php if($f_student['photo'] == "default.png"){echo "http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/".$f_student['photo'];}else{echo "../upload/".$f_student['photo'];}?>'" height = "200px" width = "200px" id="pic" src="#" />
+										<img onerror="this.src = '<?php if($f_student['photo'] == "default.png"){echo "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/".$f_student['photo'];}else{echo "../upload/".$f_student['photo'];}?>'" height = "200px" width = "200px" id="pic" src="#" />
 									</div>
 									<br />
 									<div class = "form-group">

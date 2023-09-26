@@ -4,10 +4,9 @@
 		<title>Internship portal management system</title>
 		<meta charset = "UTF-8" />
 		<meta name = "viewport" content = "width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		<link rel = "stylesheet" type = "text/css" href = "http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/bootstrap.css" />
-		<link rel = "stylesheet" type = "text/css" href = "http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/style.css" />
-		<link rel = "stylesheet" type = "text/css" href = "http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/jquery-ui.css" />
+		<link rel = "stylesheet" type = "text/css" href = "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/bootstrap.css" />
+		<link rel = "stylesheet" type = "text/css" href = "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/style.css" />
+		<link rel = "stylesheet" type = "text/css" href = "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/jquery-ui.css" />
 	</head>
 <body>
 <!--------------------HEAD---------------------->
@@ -34,7 +33,6 @@
 								<label>Password</label>
 								<input type = "password" maxlength = "12" id = "password" class = "form-control" />
 							</div>
-							<br />
 							<div id = "loading">
 							</div>
 							<br />
