@@ -57,7 +57,7 @@
 	<br />
 	<nav class = "navbar-default" id = "footer">
 		<label class = "navbar-brand pull-right">&copy; Internship portal management system <?php echo date('Y', strtotime('+8 HOURS'))?></label>
-		<label class = "navbar-brand ">TARUMT@GMAIL.COM</label>
+		<label class = "navbar-brand ">TREMENDOUSCHATIKOBO@GMAIL.COM</label>
 	</nav>
 </body>	
 <script src = "../js/jquery-3.1.1.js"></script>
