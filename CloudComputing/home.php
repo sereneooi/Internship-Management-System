@@ -1,55 +1,56 @@
-<!DOCTYPE html>
-<?php
-	require_once 'session.php';
-?>
-<html lang = "eng">
-	<head>
-		<title>InternMSU</title>
-		<meta charset = "UTF-8" />
-		<meta name = "viewport" content = "width=device-width, initial-scale=1" />
-		<link rel = "stylesheet" type = "text/css" href = "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/bootstrap.css" />
-		<link rel = "stylesheet" type = "text/css" href = "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/style.css" />
-		<link rel = "stylesheet" type = "text/css" href = "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/jquery-ui.css" />
-	</head>
-<body>
-<!--------------------HEAD---------------------->
-<?php include'head.php'?>
-<!--------------------HEAD---------------------->
-<!-------------------SIDEBAR------------------>
-<?php include 'sidebar.php'?>
-<!-------------------SIDEBAR------------------>
-
-		<div id = "sidecontent" class = "well pull-right">
-			<div class = "alert alert-info">Home</div>
-			<div class = "alert alert-success"><center><h3>VISION</h3></center></div>
-			<h4 style = "text-indent:50px;">Excellence in producing highly skilled, well qualified students in the job industry.</h4>
-			<br />
-			<div class = "alert alert-success"><center><h3>MISSION</h3></center></div>
-			<h4 style = "text-indent:50px;">Committed to provide affordable and high quality workers.</h4>
-			<br />
-			<div class = "alert alert-success"><center><h3>OBJECTIVE</h3></center></div>
-			<ol>
-				<li><h4>Possess knowledge and skills that would prepare students to improve their working skills through work related learning </h4></li>
-				<li><h4>Prepare student to be well equiped in the job industry . </h4></li>
-				<li><h4>Be proficient in designing and developing computing solutions</h4></li>
-
-			</ol>
-		<br /><br /><br />
+<div id = "home" class = "tab-pane fade in active">
+	<div id="myCarousel" class="carousel slide container-fluid" data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+			<li data-target="#myCarousel" data-slide-to="5"></li>
+			<li data-target="#myCarousel" data-slide-to="6"></li>
+			
+		</ol>
+		<div style = "margin:auto;" class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/a.png" style = "width:1920px; height:500px;" />
+			</div>
+			<div class="item">
+				<img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/b.jpg" style = "width:1920px; height:500px;"  />
+			</div>
+			<div class="item">
+				<img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/tarumt2.jpg" style = "width:1920px; height:500px;"  />
+			</div>
+			<div class="item">
+				<img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/b.jpg" style = "width:1920px; height:500px;"  />
+			</div>
+			<div class="item">
+				<img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/tarumt1.jpg" style = "width:1920px; height:500px;"  />
+			</div>
+			<div class="item">
+				<img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/b.jpg" style = "width:1920px; height:500px;"  />
+			</div>
 		</div>
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>	
+	</div>
 	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<nav class = "navbar-default" id = "footer">
-		<label class = "navbar-brand pull-right">&copy; Internship portal management system  <?php echo date('Y', strtotime('+8 HOURS'))?></label>
-		<label class = "navbar-brand ">tremendouschatikobo@gmail.com</label>
-	</nav>
-</body>	
-<script src = "../js/jquery-3.1.1.js"></script>
-<script src = "../js/sidebar.js"></script>
-</html>
+	<hr style = "border-top:1px dotted #000;" />
+	<div class = "container-fluid">
+		<div class = "alert" style='background-color: #ADD8E6;color:black;'><center><h3>Goal of the Internship platform </h3><center></div>
+		<h4>The Internship  portal platform aims to</h4>
+		<ol>
+			<li><h4>Produce students with technical skills </h4></li>
+			<li><h4>Develop creative innovators with the confidence and courage to seize and transform opportunities for the benefit of the society</h4></li>
+			<li><h4>Provide continues specialized faculty training and professional development</h4></li>
+			<li><h4>Acquire implement and utilize technologies to support for the instructional, administrative, research, and development and extensive needs</h4></li>
+			<li><h4>Provide students with all the resource to enrich their educational experience and work experience </h4></li>
+			
+		</ol>
+	</div>
+</div>
