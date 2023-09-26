@@ -1,6 +1,6 @@
 <nav class = "navbar" style='margin-bottom:-50px;'>
 	<div class = "container-fluid">
-			<img class = "pull-left" src="http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/logo.png" width="40%" height="120" alt="logo"  style ="display: block; margin-left: 30%;margin-top: 40px;">
+			<img class = "pull-left" src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/logo.png" width="40%" height="120" alt="logo"  style ="display: block; margin-left: 30%;margin-top: 40px;">
 	</div>
 </nav>
 <br>
@@ -47,16 +47,16 @@ if(!empty($_POST["insert_button"])) {
 <html>
 <head>
 
-<link rel="stylesheet" type="text/css" href="http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/bootstrap.css"">
+<link rel="stylesheet" type="text/css" href="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/bootstrap.css"">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel = "stylesheet" type = "text/css" href = "http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/jquery-ui.css" />
-    <link rel = "stylesheet" type = "text/css" href = "http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/jquery.dataTables.css" />
+  <link rel = "stylesheet" type = "text/css" href = "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/jquery-ui.css" />
+    <link rel = "stylesheet" type = "text/css" href = "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/jquery.dataTables.css" />
  <style>
         body {
             width: 100%;
             font-family: calibri;
-            background-image: url('http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/blur2.jpg');
+            background-image: url('http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/blur2.jpg');
             background-repeat: no-repeat;
             background-size: cover;
         }

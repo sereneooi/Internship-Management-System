@@ -12,22 +12,22 @@
 		</ol>
 		<div style = "margin:auto;" class="carousel-inner" role="listbox">
 			<div class="item active">
-				<img src="http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/a.png" style = "width:1920px; height:500px;" />
+				<img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/a.png" style = "width:1920px; height:500px;" />
 			</div>
 			<div class="item">
-				<img src="http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/b.jpg" style = "width:1920px; height:500px;"  />
+				<img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/b.jpg" style = "width:1920px; height:500px;"  />
 			</div>
 			<div class="item">
-				<img src="http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/tarumt2.jpg" style = "width:1920px; height:500px;"  />
+				<img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/tarumt2.jpg" style = "width:1920px; height:500px;"  />
 			</div>
 			<div class="item">
-				<img src="http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/b.jpg" style = "width:1920px; height:500px;"  />
+				<img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/b.jpg" style = "width:1920px; height:500px;"  />
 			</div>
 			<div class="item">
-				<img src="http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/tarumt1.jpg" style = "width:1920px; height:500px;"  />
+				<img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/tarumt1.jpg" style = "width:1920px; height:500px;"  />
 			</div>
 			<div class="item">
-				<img src="http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/b.jpg" style = "width:1920px; height:500px;"  />
+				<img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/b.jpg" style = "width:1920px; height:500px;"  />
 			</div>
 		</div>
 		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">

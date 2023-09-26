@@ -1,5 +1,5 @@
 <div id = "activities" class = "tab-pane fade">
-	<img src = "http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/calendar.png" class = "pull-left" height = "80" width = "80"/>
+	<img src = "http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/calendar.png" class = "pull-left" height = "80" width = "80"/>
 	<h2 class = "text-success pull-left" style='font-size:40px; color:black;'>Internship Activities</h2>
 	<br style = "clear:both;"/>
 	<hr style = "border-top:1px solid #000;"/>

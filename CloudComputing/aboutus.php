@@ -35,7 +35,7 @@
     <div class="founder-portfolio">
         <div class="founder-item">
             <div class="founder-image">
-                <img src="http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/q.jpg" alt="Bee Wei Win's Image" width="150" height="150">
+                <img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/q.jpg" alt="Bee Wei Win's Image" width="150" height="150">
             </div>
             <div class="founder-details">
                 <p>Bee Wei Win</p>
@@ -45,7 +45,7 @@
     
         <div class="founder-item">
             <div class="founder-image">
-                <img src="http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/q.jpg" alt="Foo Jing Lynn's Image" width="150" height="150">
+                <img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/q.jpg" alt="Foo Jing Lynn's Image" width="150" height="150">
             </div>
             <div class="founder-details">
                 <p>Foo Jing Lynn</p>
@@ -55,7 +55,7 @@
     
         <div class="founder-item">
             <div class="founder-image">
-                <img src="http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/q.jpg" alt="Ho Kai Ying's Image" width="150" height="150">
+                <img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/q.jpg" alt="Ho Kai Ying's Image" width="150" height="150">
             </div>
             <div class="founder-details">
                 <p>Ho Kai Ying</p>
@@ -65,7 +65,7 @@
     
         <div class="founder-item">
             <div class="founder-image">
-                <img src="http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/q.jpg" alt="Serene Ooi Yin Ting's Image" width="150" height="150">
+                <img src="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/q.jpg" alt="Serene Ooi Yin Ting's Image" width="150" height="150">
             </div>
             <div class="founder-details">
                 <p>Serene Ooi Yin Ting</p>
