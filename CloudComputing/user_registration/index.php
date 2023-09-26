@@ -62,7 +62,7 @@ if(!empty($_POST["register-user"])) {
         body {
             width: 100%;
             font-family: calibri;
-			background-image: url('http://serene-bucket.s3-website-us-east-1.amazonaws.com/images/blur2.jpg');
+			background-image: url('http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/images/blur2.jpg');
 			background-repeat: no-repeat;
 			background-size: cover;
         }
