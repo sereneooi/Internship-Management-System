@@ -4,7 +4,7 @@
 // Check if the form was submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Establish a database connection
-    $con = mysqli_connect('db1.cpg9cjdwwtu2.us-east-1.rds.amazonaws.com', 'main', 'qwer1234', 'db1');
+    $con = mysqli_connect('db.cx03wpfilkwh.us-east-1.rds.amazonaws.com', 'main', 'qwer1234', 'db');
 
     // Check the connection
     if (!$con) {
@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     // Select the database
-    mysqli_select_db($con, "db1");
+    mysqli_select_db($con, "db");
 
     // Get and sanitize form input
     $company_name = mysqli_real_escape_string($con, $_POST['company_name']);
