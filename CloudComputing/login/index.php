@@ -7,10 +7,10 @@
 
  
     <!-- Bootstrap core CSS -->
-    <link href="http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/font-awesome.min.css" rel="stylesheet">
-    <link href="http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/datepicker.css" rel="stylesheet">
-    <link href="http://serene-bucket.s3-website-us-east-1.amazonaws.com/css/style.css" rel="stylesheet">
+    <link href="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/datepicker.css" rel="stylesheet">
+    <link href="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/css/style.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/sticky-footer-navbar.css" rel="stylesheet">
