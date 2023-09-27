@@ -177,8 +177,6 @@ if(!empty($_POST["insert_button"])) {
     </body>
 <script>
 function submitForm() {
-    // Display the submit button and auto-submit the form
-    document.getElementById('filesubmit').style.display = 'block';
     document.getElementById('filesubmit').click(); // Simulate a click on the submit button
 }
 </script>
