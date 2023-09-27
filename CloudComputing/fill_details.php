@@ -161,11 +161,9 @@ if(!empty($_POST["insert_button"])) {
 </tr>
 <tr>
 <td>Upload cv:</td>
-<td>
-   <form action="http://sereneooi-bucket.s3-website-us-east-1.amazonaws.com/upload/" method="post" enctype="multipart/form-data">
-      <input type="file" name="file" id="fileToUpload" onchange="submitForm()" required  />
-      <input type="submit" value="Upload File" name="submit" id="filesubmit" hidden>
-  </form>
+<td>  <input type="file" name="file" id="fileToUpload" required  />
+  
+   
 </td>
 </tr>
 <tr>
@@ -175,9 +173,4 @@ if(!empty($_POST["insert_button"])) {
 </table>
 </div>
     </body>
-<script>
-function submitForm() {
-    document.getElementById('filesubmit').click(); // Simulate a click on the submit button
-}
-</script>
 </html>
